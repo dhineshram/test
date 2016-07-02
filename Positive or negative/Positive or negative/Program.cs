@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace Positive_or_negative
 {
     class Program
     {
@@ -11,12 +11,7 @@ namespace ConsoleApplication1
         {
             Console.Write("Enter the number: ");
             int num = int.Parse(Console.ReadLine());
-            if (num > 0)
-                Console.WriteLine("Positive");
-            else if (num < 0)
-                Console.WriteLine("Negative");
-            else
-                Console.WriteLine("Zero");
+            Console.WriteLine(num != 0 ? (num > 0 ? "Positive" : "Negative") : "Zero");
             Console.ReadLine();
         }
     }
