@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Positive_or_negative
+namespace factorial
 {
     class Program
     {
@@ -11,7 +11,13 @@ namespace Positive_or_negative
         {
             Console.Write("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(n != 0 ? (n > 0 ? "Positive" : "Negative") : "Zero");
+            int output = 1;
+            while(n!=0)
+            {
+                output *= n;
+                n--;
+            }
+            Console.WriteLine(output);
             Console.ReadLine();
         }
     }

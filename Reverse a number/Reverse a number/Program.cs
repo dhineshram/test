@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Positive_or_negative
+namespace Reverse_a_number
 {
     class Program
     {
@@ -11,7 +11,11 @@ namespace Positive_or_negative
         {
             Console.Write("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(n != 0 ? (n > 0 ? "Positive" : "Negative") : "Zero");
+            while(n!=0)
+            {
+                Console.Write(n % 10);
+                n /= 10;
+            }
             Console.ReadLine();
         }
     }

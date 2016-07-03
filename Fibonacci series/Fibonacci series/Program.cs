@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Positive_or_negative
+namespace Fibonacci_series
 {
     class Program
     {
@@ -11,7 +11,16 @@ namespace Positive_or_negative
         {
             Console.Write("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(n != 0 ? (n > 0 ? "Positive" : "Negative") : "Zero");
+            int a = 0, b = 1, i = 0;
+            Console.WriteLine("0\n1");
+            for (; i < n;)
+            {
+                i = a + b; 
+                a = b;
+                b = i;
+                if (i<n)
+                    Console.WriteLine(i);
+            }
             Console.ReadLine();
         }
     }

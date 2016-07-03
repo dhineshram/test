@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{64E70217-9C48-4B22-B51D-EA4AAC7859C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap year or not", "Leap year or not\Leap year or not.csproj", "{2798C44F-BFCE-4F96-92C2-EBEA7FECE09B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64E70217-9C48-4B22-B51D-EA4AAC7859C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64E70217-9C48-4B22-B51D-EA4AAC7859C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64E70217-9C48-4B22-B51D-EA4AAC7859C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64E70217-9C48-4B22-B51D-EA4AAC7859C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2798C44F-BFCE-4F96-92C2-EBEA7FECE09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2798C44F-BFCE-4F96-92C2-EBEA7FECE09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2798C44F-BFCE-4F96-92C2-EBEA7FECE09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2798C44F-BFCE-4F96-92C2-EBEA7FECE09B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

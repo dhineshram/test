@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Positive_or_negative
+namespace multiplication_table
 {
     class Program
     {
@@ -11,7 +11,8 @@ namespace Positive_or_negative
         {
             Console.Write("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(n != 0 ? (n > 0 ? "Positive" : "Negative") : "Zero");
+            for (int i = 1; i <= 10; i++)
+                Console.WriteLine(i + " x " + n + " = " + i * n);
             Console.ReadLine();
         }
     }

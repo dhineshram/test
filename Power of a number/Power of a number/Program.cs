@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Positive_or_negative
+namespace Power_of_a_number
 {
     class Program
     {
@@ -11,7 +11,9 @@ namespace Positive_or_negative
         {
             Console.Write("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(n != 0 ? (n > 0 ? "Positive" : "Negative") : "Zero");
+            Console.Write("Enter the Power: ");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Result: " + Math.Pow(n, p));
             Console.ReadLine();
         }
     }
