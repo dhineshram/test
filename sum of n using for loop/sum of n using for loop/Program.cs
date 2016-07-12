@@ -11,8 +11,8 @@ namespace sum_of_n_using_for_loop
         {
             Console.Write("Enter the N: ");
             int n = int.Parse(Console.ReadLine()),sum=0;
-            while (n != 0)
-                sum += n--;
+            for(;n>0;n--)
+                sum += n;
             Console.WriteLine("Sum is " + sum);
             Console.ReadLine();
         }
